@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>We Code</title>
+<link rel="stylesheet" type="text/css" href="" />
+<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+<link rel="icon" href="images/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery-2.2.0.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>    
+</head>               
+<body> 
+<div class="loader"></div>    
+<div class="nav-container">    
+<ul class="nav">
+<!-- this menu icon is mobile only + triggers checked input -->
+<label for="show-menu" class="show-menu"></label>
+<!-- this triggers div="menu" to show -->
+<input type="checkbox" id="show-menu" role="button">
+<span class="logo"></span>
+<div id="menu" class="show-nav">
+<li><a href="#" id="home">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Our Work</a></li>
+<li><a href="#">Contact</a></li>
+</div>
+</ul>
+    </div>
+
+<div class="main-bkg-responsive"></div> 
+    
+<div class="container">
+        <div class="videtitle">
+            <h1>We Can Code Ideas To Life</h1>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>            
+
+
+    
+<div class="container">
+    <div class="main">    
+        <video src="typing.mp4" autoplay loop muted id="video1"></video>
+    </div>
+    </div>
+       
+   
+    
+    
+<div class="container">
+  <div class="middle">
+      <div class="row">
+        <div class="col">
+            <h1>WeCode = Awesome Software</h1>
+                <h1 id="h1"></h1>
+                <p>Not only do we know code, but we know business. We can design and program fully functional software that your customers will love.</p>
+            <a href="#" class="btn">Learn More</a>    
+            </div>
+        <div class="col">
+            
+            </div>
+            </div>    
+          </div>
+    </div>
+      <div class="clearfix"> </div>
+    <div class="container" id="bk">
+        <div class="middle2">
+            <h1>How We Can Help</h1>
+            <div class="hcontainer">
+            <h1 id="h1"></h1>
+            </div>   
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget sem a purus interdum pharetra vel in diam. In rhoncus justo risus. Nulla id metus convallis, accumsan libero nec, accumsan elit.</p> 
+            <p>Sed scelerisque vulputate massa, quis gravida elit ultrices vel. Etiam quis nisl sodales, viverra metus aliquam, finibus tellus. Nunc vehicula condimentum egestas. Donec hendrerit urna a felis euismod pharetra. Quisque a tortor in sem faucibus lobortis.</p>
+            <a href="#" class="btn">More About Us</a>
+        </div>
+      </div>
+     
+
+      
+    <div class="container">
+        <div class="middle3">
+          <div class="box">
+            <h1>We Code 24/8 To Meet Your Goals<h1>
+                <p>Etiam consectetur dolor aliquam purus volutpat, in eleifend lorem aliquet. Fusce in nunc nec mi congue sagittis. Donec sollicitudin dignissim quam finibus porttitor.</p>
+            <h1>We Will Save You Time<h1>
+                <p>Phasellus ut tellus vitae urna ullamcorper pharetra vel non ante. Proin maximus nulla mattis risus suscipit luctus. Donec vestibulum metus quis dolor ullamcorper laoreet. Fusce sed felis interdum, euismod ligula sit amet, tincidunt sem.</p>
+            <h1>Simple Solutions, Straight Talk<h1>
+                <p>Phasellus ut tellus vitae urna ullamcorper pharetra vel non ante. Proin maximus nulla mattis risus suscipit luctus. Donec vestibulum metus quis dolor ullamcorper laoreet. Fusce sed felis interdum, euismod ligula sit amet, tincidunt sem.</p>            
+            </div>
+        </div>
+      </div>
+       <div class="clearfix"> </div>
+    <div class="container">
+        <div class="middle4">
+            <h1>Our Code Process</h1>
+            <div class="hcontainer">
+            <h1 id="h1"></h1>
+            </div>    
+            <div class="row">
+                <div class="col">
+                    <p>Fusce in nunc nec mi congue sagittis. Donec sollicitudin dignissim quam finibus porttitor. Phasellus ut tellus vitae urna ullamcorper pharetra vel non ante. ut tellus vitae urna ullamcorper pharetra vel non ante. ut tellus  </p>
+                </div>
+                <div class="col">
+                     <p>Praesent nunc eros, semper a erat at, molestie scelerisque risus. Etiam tincidunt mauris at egestas euismod. Vivamus neque risus, molestie ut ornare non, bibendum nec orci. Vivamus neque risus, molestie ut ornare non, dffddfdfffdf.</p>
+                </div>
+            </div>
+            
+                        <div class="row">
+                <div class="col">
+                    <p>Ut molestie ipsum egestas magna ultricies, id commodo dolor elementum. Maecenas porta, lacus nec iaculis varius, neque erat scelerisque mauris, et dignissim sapien nisi vel nisi. et dignissim sapien nisi vel nisi. et dignissim sapien nisi vel nisi. </p>
+                </div>
+                <div class="col">
+                     <p>Duis eget interdum lorem. Vivamus tempor ipsum erat. Etiam at enim massa. Ut molestie ipsum egestas magna ultricies, id commodo dolor elementum. Maecenas porta, lacus nec iaculis varius, neque erat scelerisque mauris, et dignissim sapien nisi vel nisi. Suspendisse sagittis id est quis vestibulum.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+                <div class="clearfix"> </div>
+
+<div class="container">
+    <div class="footer">
+        <p>&copy; All Rights Reserved 2016 | <a href="#">WeCode</a></p>   
+    </div>
+    </div>       
+<script>
+ document.getElementById("video1").addEventListener("loadedmetadata", function() {
+     this.currentTime = 4;
+}, false);
+</script>    
+    
+
+</body>
+</html>
